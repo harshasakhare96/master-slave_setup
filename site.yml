@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  become: true
+  gather_facts: false
+  roles:
+          - autoinv
+
+            
+            #- hosts: new_servers
+            #  become: true
+            #  gather_facts: false
+            #  roles: 
+            #          - setup
+            #
+

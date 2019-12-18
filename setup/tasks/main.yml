@@ -1,0 +1,13 @@
+---
+          
+          - name: yum update
+            yum:
+              name: httpd
+              state: present
+            become: true
+
+          - name: service start
+            service:
+                name: httpd
+                status: started
+# tasks file for setup

@@ -1,0 +1,32 @@
+---
+- hosts: localhost
+  become: true
+  gather_facts: false
+
+  tasks:
+        
+          
+
+          #
+          #        - name: Gathering user home directory location
+          #          local_action: shell echo $HOME
+          #          register: userhome
+          #          ignore_errors: true
+          #
+          #
+          #          #        - name: Copy keys added to authorized_keys
+          #          #          authorized_key:
+          #          #            user=root
+          #          #            key="{{ lookup('file', 'authorized_keys') }}"
+          #          #
+          #        - name: Copy id_rsa.pub if found locally
+          #          authorized_key:
+          #            user=root
+          #            key="{{ lookup('file', '{{userhome.stdout}}/.ssh/id_rsa.pub') }}"
+          #            manage_dir=yes
+          #          ignore_errors: true
+          #            
+      
+        - name: copy ssh
+          shell: ssh-copy-id ansible@ec2-3-86-246-37.compute-1.amazonaws.com
+
