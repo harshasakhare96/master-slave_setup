@@ -30,6 +30,6 @@ chmod 777 .ssh
 touch  .ssh/authorized_keys
 chmod 700 .ssh/authorized_keys
 cat >> /home/ansible/.ssh/authorized_keys <<EOF
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD8luIO174s+LmLznX+8KVGkBXtLNZorz0nSkHLmHBfVp8ynfDCQ8h772IKaOyG0axSNbUGqtkiMdbZiOikd+qtYp6p46HBTciRuX+6WUGeLPhGiIrmcebE2/VALOrSr5PvEWMDYNsCv96esEiEEcTiwMrAvlDu/h39LmEym0uTe7+Ekv4eV3xniwU7uPp0kjnL1ii1kHPxKdyPlW2pqqv8/Mr+GYkHheO4kqUj7NshMrto3upq3KpwTF93c4k0XY5iVY7qkW5BuJ0UWkh7RCrfz1f5QWBiKG1n38yEUaav17RDJPALthASW/DXrys7xL+HPSSpd8nWRIGWbaTe8OVp ansible@webwerks-Latitude-E7240
+
 EOF
 
