@@ -31,5 +31,6 @@ touch  .ssh/authorized_keys
 chmod 700 .ssh/authorized_keys
 cat >> /home/ansible/.ssh/authorized_keys <<EOF
 
+<put your ssh_id_rsa_pub key here>
 EOF
 
