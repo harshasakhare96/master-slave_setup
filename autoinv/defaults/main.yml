@@ -2,7 +2,7 @@
 ami: ami-00068cd7555f543d5
 region: us-east-1
 instance_type: t2.micro
-subnet: subnet-f201dcbf
+subnet: 
 keypair: dhaval-key
-aws_access_key: AKIA5WRIVFTK2P6IT2EK
-aws_secret_key: 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
+aws_access_key: 
+aws_secret_key: 
