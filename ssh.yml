@@ -28,5 +28,5 @@
           #            
       
         - name: copy ssh
-          shell: ssh-copy-id ansible@ec2-3-86-246-37.compute-1.amazonaws.com
+          shell: ssh-copy-id <hostname>@<IP>
 
