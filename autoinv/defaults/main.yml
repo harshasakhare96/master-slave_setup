@@ -3,6 +3,6 @@ ami: ami-00068cd7555f543d5
 region: us-east-1
 instance_type: t2.micro
 subnet: 
-keypair: dhaval-key
+keypair: <keyname>
 aws_access_key: 
 aws_secret_key: 
